@@ -648,4 +648,4 @@ def reframe_box_masks_to_image_masks(box_masks, boxes, image_height,
                                          box_ind=tf.range(num_boxes),
                                          crop_size=[image_height, image_width],
                                          extrapolation_value=0.0)
-  return tf.squeeze(image_masks, axis=3)
+  return tf.squeeze(image_masks, axis=3)
