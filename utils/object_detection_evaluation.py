@@ -230,4 +230,4 @@ class EvalResult(object):
     self.precisions = precisions
     self.recalls = recalls
     self.all_corloc = all_corloc
-    self.average_precisions = average_precisions
+    self.average_precisions = average_precisions
